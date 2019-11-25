@@ -1,0 +1,67 @@
+body{
+  font-family:font-family: 'Raleway', sans-serif;;
+  background-color:pink;
+}
+.username.ng-valid {
+          background-color: pink;
+      }
+      .username.ng-dirty.ng-invalid-required {
+          background-color: red;
+      }
+      .username.ng-dirty.ng-invalid-minlength {
+          background-color: yellow;
+      }
+ 
+      .email.ng-valid {
+          background-color: lightgreen;
+      }
+      .email.ng-dirty.ng-invalid-required {
+          background-color: red;
+      }
+      .email.ng-dirty.ng-invalid-email {
+          background-color: yellow;
+      }
+
+h1{
+  text-align: center;
+  font-family:font-family: 'Raleway', sans-serif;
+}
+#float1{
+	float: left;
+}
+
+#float2{
+	float: right;
+}
+
+.textBox{
+	width: 250px;
+	height: 30px;
+}
+
+#clearButton{
+
+	margin-top: 10px;
+	margin-right: 15px;
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	width: 80px;
+}
+
+#submitButton{
+    margin-top: 10px;
+	margin-left: 75px;
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	width: 80px;
+  font-family:font-family: 'Raleway', sans-serif;
+}
+ 
